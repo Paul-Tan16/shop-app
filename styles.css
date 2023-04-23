@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+    
+}
+body{
+    width:500px;
+}
+#front-bg{
+    background-image: url(pictures/pizza-background.jpg);
+    color:rgb(48, 21, 135);
+    text-align: center;
+    text-shadow: 1px 1px 5px white;
+    
+}
+
+
+/* Main box */
+
+#food-box{
+    height:300px;
+    overflow:scroll;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+/*  Food Menu */ 
+.food{
+    display:flex;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.308);
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-bottom: 10px;
+    height:100px;
+    border:1px solid red;
+
+}
+
+.food-img{
+    width: 100px;  
+}
+/* items on menu */
+.food-info{
+    width: 280px;
+    border:1px solid black;
+    font-size:10px;
+    margin-left:10px;
+
+}
+
+.food-name{
+    border:1px solid red;
+    margin-bottom:1px;
+}
+
+
+/* .price{
+    display:block;
+    border:1px solid red;
+} */
+    
+
+
+/* addition button*/
+.btn-input{
+    position:relative;
+    width:75px;
+    border:1px solid lime;
+}
+
+.add{
+    margin-right:10px;
+    width: 30px;
+    height:30px;
+    margin-top: 22px;
+    margin-left:28px;
+    border-radius: 50%;
+    color:whitesmoke;
+}
+
+.plus-sign{
+    position:absolute;
+    right: 27px;
+    bottom:30px;
+
+}
+
+.add:hover, .plus-sign{
+  cursor:pointer  
+
+}
+
+
+
+/* bottom div */
+
+#bottom-div{
+    width:500px;
+    text-align: center;
+}
+#order-list{
+    height:100px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y:visible;
+    border:1px solid pink;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.817) ;
+}
+
+#calculate-order{
+    padding:25px 175px;;
+    background: #33c533;
+    border:none;
+}
+
+#calculate-order:hover{
+    cursor: pointer;
+}
